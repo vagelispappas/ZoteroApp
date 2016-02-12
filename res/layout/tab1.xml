@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dip"
+        android:text="@string/Info_Tab"
+        android:textSize="18sp"
+        android:gravity="center" />
+    
+     <TableRow
+        android:id="@+id/tblRow_titl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/label_titl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_title" />
+
+        <TextView
+            android:id="@+id/tv_titl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left" />
+
+    </TableRow>
+    
+    
+     
+    
+
+    <TableRow
+        android:id="@+id/tblRow_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/label_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_type" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left" />
+
+    </TableRow>
+    
+     <TableRow
+        android:id="@+id/tblRow_url"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/label_URL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_url" />
+
+        <TextView
+            android:id="@+id/tv_url"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+             />
+    </TableRow>
+
+  
+    <TableRow
+        android:id="@+id/tblRow_author"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <TextView
+            android:id="@+id/label_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_author" />
+
+        <TextView
+            android:id="@+id/tv_lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </TableRow>
+    
+   
+    <TableRow
+        android:id="@+id/tblRow_DOI"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone" >
+        
+
+        <TextView
+            android:id="@+id/label_DOI"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_DOI" />
+
+        <TextView
+            android:id="@+id/tv_DOI"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+             />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tblRow_ISSN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/label_ISSN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_ISSN" />
+
+        <TextView
+            android:id="@+id/tv_ISSN"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+           
+             />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tblRow_ISBN"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/label_ISBN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_ISBN" />
+
+        <TextView
+            android:id="@+id/tv_ISBN"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            
+             />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tblRow_pages"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/label_pages"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_pages" />
+
+        <TextView
+            android:id="@+id/tv_pages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+           
+             />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tblRow_publisher"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/label_publisher"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/label_publisher" />
+
+        <TextView
+            android:id="@+id/tv_publisher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            
+             />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tblRow_short_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/label_short_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/shortTitle" />
+
+        <TextView
+            android:id="@+id/tv_short_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"   />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tblRow_blog_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/label_blog_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/blog_title" />
+
+        <TextView
+            android:id="@+id/tv_blog_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+             />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tblRow_date_added"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/label_date_added"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/date" />
+
+        <TextView
+            android:id="@+id/tv_date_added"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+             />
+    </TableRow>
+     <TableRow
+        android:id="@+id/tblRow_date_modified"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/label_date_modified"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/date_modified" />
+
+        <TextView
+            android:id="@+id/tv_date_modified"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+             />
+    </TableRow>
+    
+    
+    
+
+    <TableRow
+        android:id="@+id/tblRow_BttnChild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+		
+        <Button
+            android:id="@+id/bttn_childInfo"
+            android:text="@string/children_info"
+             android:layout_width="wrap_content"
+            android:layout_height="match_parent"  />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tblRow_Bttn_Attach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/bttn_attachment"
+            android:text="@string/see_attachment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tblRow_abstract"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="true"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/label_abstract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_abstract" />
+
+        <TextView
+            android:id="@+id/tv_abstract"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </TableRow>
+
+</LinearLayout>
+</ScrollView>

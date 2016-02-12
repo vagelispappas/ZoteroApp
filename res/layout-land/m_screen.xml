@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_base"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linear_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/et_collection_label"
+            android:layout_width="281dp"
+            android:layout_height="49dp"
+            android:layout_weight="0.01"
+            android:text="@string/collection_label"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/et_item_label"
+            android:layout_width="322dp"
+            android:layout_height="49dp"
+            android:layout_weight="0.11"
+            android:text="@string/item_label"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.03"
+            android:clickable="true"
+            android:src="@drawable/magnifying_glass" />
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/search"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_linear_lv_fr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="300dp"
+            android:layout_height="match_parent" >
+        </ListView>
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.07" >
+        </ListView>
+
+        <FrameLayout
+            android:id="@+id/framelayout1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.38"
+            android:scrollbars="horizontal"
+            android:visibility="visible" >
+        </FrameLayout>
+
+        <!-- edw na kleisw to linear -->
+
+    </LinearLayout>
+
+</LinearLayout>
